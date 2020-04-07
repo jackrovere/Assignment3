@@ -1,0 +1,63 @@
+@import "reset.css";
+:root {
+    --main-color: #829CD0;
+    --contrast-text-color: #7F6085;
+    --background-color: #d0e1f9;
+}
+.container {
+    background-color: var(--background-color);
+}
+.topnav {
+    text-align: center;
+    background-color: var(--main-color);
+}
+.topnav a {
+    margin: 20px;
+    color: black;
+}
+#name {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+article h1 {
+    text-decoration: underline;
+}
+article h3 {
+    background-color: var(--main-color);
+    padding: 10px;
+    text-decoration: underline;
+}
+article h4 {
+    color: var(--contrast-text-color);
+}
+.row article {
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    color: var(--contrast-text-color);
+}
+hr {
+    width: 90%;
+}
+footer {
+    text-align: center;
+    background-color: var(--main-color);
+}
+footer a {
+    color: black;
+}
+#video {
+    margin-bottom: 20px;
+}
+#skip a {
+    position: absolute;
+    left: -10000px;
+}
+#skip a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
